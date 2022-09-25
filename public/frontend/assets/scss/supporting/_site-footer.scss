@@ -1,0 +1,29 @@
+.footer {
+
+    padding:4rem 0;
+    // font-size:14px;
+    background-color: #181818;
+    color: #fff;
+
+    h6 {
+        color: #fff;
+        font-weight: bold;
+        margin:1.5rem 0;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    
+    @include media-breakpoint-up(md) {
+        h6 {
+            font-size: 1.125rem;
+        }        
+    }
+
+}

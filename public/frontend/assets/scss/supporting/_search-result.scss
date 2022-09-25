@@ -1,0 +1,108 @@
+.search-filter {
+    margin: -3rem 0 3rem;
+    padding: 1.5rem 0;
+}
+
+
+.filters-wrap {
+    margin-top: 1rem;
+}
+
+.filters {
+    border: 2px solid #c5c5c5;
+    border-radius: 4px;
+    //font-size: 14px;
+
+    > div + div {
+        border-top: 1px solid #ccc;
+    }
+}
+
+.filter-box {
+    padding:15px 20px;
+
+    h6 {
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+
+    ul {
+    
+        padding-left: 20px;
+
+        li {
+            margin-top: 5px;
+
+            label {
+                margin-bottom: 0;
+            }
+
+            a {
+                &:hover {
+                    padding-left: 5px;
+                }
+    
+                &:before {
+                    content: '\00bb';
+                    font-size: 1.2em;
+                    margin-right: 3px;
+                }
+            }
+        }
+    }
+
+    > ul {
+        list-style: none;
+        padding-left: 0 !important;
+        margin-bottom:10px;
+    }
+
+    
+}
+
+.ui-slider-horizontal { height:2px; margin:1rem 0 .5rem;}
+.ui-widget-content { border:none; background:#ccc;}
+.ui-slider *,
+.ui-slider { -webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none;transition:none;}
+.ui-slider .ui-slider-handle { background-color:$primary; border: medium none; height: 10px; width: 10px; margin-left: -0.3em; border-radius:5px;}
+.range-slider div + div { font-size:.875rem; font-weight:600;}
+
+.serach-result {
+    &-wrap {
+
+        .product {
+
+            &-box {
+                margin-bottom: .25rem;
+            }
+
+            &-title {
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 700;
+            }
+
+            &-attributes,
+            &-type {
+                // margin-top: .125rem;
+
+                span {
+                    margin:.125rem;
+                }
+            }
+
+            &-type {
+                span {
+                    @extend .bg-dark, .text-white, .px-2, .py-1, .rounded, .d-inline-block;
+
+                    font-size: .75rem;
+                }
+            }
+
+            &-price {
+                margin-top: .5rem;
+            }
+        }
+    }
+}
+

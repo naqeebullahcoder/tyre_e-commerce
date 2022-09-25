@@ -1,0 +1,57 @@
+/*----------------------Single Prodect--------------------------*/
+
+.single_prodect { margin-top:50px;}
+
+.stock { float:right; margin-top:-40px; font-weight:bold; text-transform:uppercase;}
+.stock.in-stock { color:#006300;}
+.stock.out-stock { color:#DB0003;}
+
+.pro_slider_nav { margin:5px -5px 0;}
+.pro_slider_nav:after { content:""; display:block; height:1px; clear:both;}
+.pro_slider_nav a { margin:5px; float:left;}
+
+.single-pro-info {
+    margin-top:1.875rem;
+
+    .product-type {
+        span {
+            @extend .bg-dark, .text-white, .px-2, .py-1, .rounded, .d-inline-block;
+
+            font-size: .75rem;
+        }
+    }
+}
+
+// .table.pro_info { border:1px solid #bfc8ce; border-top:none;  border-left:none; background-color:#F9F9F9;}
+// .table.pro_info tr:nth-child(2n+2) { background-color:#fff;}
+// .table.pro_info td { border-left:1px solid #bfc8ce;}
+// .table.pro_info td:first-child { font-weight:600;}
+
+.pro_price { font-weight:600; font-style:italic; margin-bottom:10px;}
+
+// .single_prodect .all_equipment { margin-top:40px}
+
+.product-quantity {
+    @extend .mb-2;
+
+    max-width: 130px;
+}
+
+.equipment_list { color:#fff; background-color:#141414; margin-top:70px;}
+.equipment_list h5 { padding:20px; margin-top:0; color:#fff; text-transform:uppercase;}
+.equipment_list ul { padding:0; list-style:none; margin-bottom:0;}
+.equipment_list ul li { padding:8px 20px; border-top:1px solid #3d3a38;}
+.equipment_list ul li a { color:#fff; font-weight:600; display:inline-block;}
+.equipment_list ul li a:before { content:"\f054"; font-size:1em; margin-right:5px; font-weight:900; font-family: "Font Awesome 5 Free";}
+.equipment_list ul li a:hover { text-decoration:none; color:#ccc;}
+
+
+.order_box { background-color:#f0f0f0; margin-top:20px;}
+.order_box_content { padding:20px;}
+.order_box_content h6 { margin:0; text-transform:uppercase; border-bottom:1px solid #ccc; padding-bottom:20px; margin-bottom:20px;}
+.order_box_content .shopping_icon { float:left; margin-right:20px; font-size:1.2em;}
+.order_box_content .order_item { overflow:hidden;}
+.order_box_content .order_item p { margin-top:0; line-height:normal; margin-bottom:5px;}
+.order_box_content .order_item h4 { margin-top:5px;}
+.order_btn { background-color:#141414; text-align:center; padding:5px;}
+.order_btn a { margin:0 5px; text-transform:uppercase;}

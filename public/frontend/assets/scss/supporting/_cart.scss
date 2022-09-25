@@ -1,0 +1,41 @@
+/*----------------------Cart // Cart table also use in check out page--------------------------*/
+
+.table.cart_table { margin:30px 0;}
+.table.cart_table thead { background-color:transparent; border-top:1px solid #bfc8ce; font-weight:700;}
+.table.cart_table thead td { padding:22px 0;}
+.table.cart_table td { vertical-align:top; padding:35px 0;}
+.table.cart_table tbody tr td:first-child { font-weight:600;}
+.table.cart_table td strong { font-weight:600;}
+.table.cart_table td .form-control { max-width:40px; text-align:center; color:#000; border-radius:0; display:inline-block; padding:6px;}
+.table.cart_table td .fa-times-circle { float:right; margin-top:5px; color:#d7dde3;}
+.table.cart_table td .fa-times-circle:hover { color:#DB0003;}
+.table.cart_table tfoot { border-bottom:1px solid #bfc8ce;}
+.table.cart_table tfoot td { padding:22px 10px;}
+
+.btns-cart { text-align:right;}
+.btns-cart a { margin:0 5px; text-transform:uppercase;}
+.btns-cart a:first-child { float:left; margin: 0;}
+.btns-cart a.btn { padding:7px 20px;}
+
+/*----------------------Check out--------------------------*/
+
+.cehckout_page .table.cart_table tfoot td { background-color:#0d0906; color:#fff;}
+.cehckout_page .shipping_info_wrap h6 { margin:30px 0;}
+.cehckout_page .shipping_info_wrap .tab-pane > .checkbox { margin-top:20px; margin-bottom:-10px;}
+.tabs-wrap .nav-tabs { background-color:#f0f0f0; border-bottom-color:#0d0906; padding:0 20px;}
+.tabs-wrap .nav-tabs > li { margin-bottom:-1px;}
+.tabs-wrap .nav-tabs > li > a {display: block; font-size:18px; font-weight:600; color: #000; border-radius:0; border:none; padding:0 15px; line-height:49px;}
+.tabs-wrap .nav-tabs > li.active > a,
+.tabs-wrap .nav-tabs > li.active > a:hover,
+.tabs-wrap .nav-tabs > li.active > a:focus { border:none; color:#000;}
+.tabs-wrap .nav > li > a:hover,
+.tabs-wrap .nav > li > a:focus { background-color:#fff; border:#000;}
+
+.gray_box { background-color:#f0f0f0; padding:30px;}
+.gray_box .title { border-bottom:1px solid #d9dadb; margin-top:0; margin-bottom:30px; padding-bottom:20px; font-weight:700;}
+.gray_box p { line-height:24px;}
+.gray_box p + p { margin-bottom:0;}
+.yellow_box { background-color:#f5b324; padding:5px 30px;}
+
+.already-account { color:#666; margin:30px 0 0;}
+.already-account a { color:#000; font-weight:600; text-transform:capitalize;}  

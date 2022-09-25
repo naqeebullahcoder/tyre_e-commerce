@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+//@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// *::selection {
+//     background: #384e73;
+//     color: #ffffff;
+// }
+// *::-moz-selection {
+//     background: #384e73;
+//     color: #ffffff;
+// }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+//     text-rendering: optimizelegibility;
+//     letter-spacing: 0.06em;
+//     //font-weight: bold;
+// }
+
+// .h1, h1 {
+//     font-weight: bold !important;
+// }
+
+$body-color: #202020 !default;
+
+//$blue:  #0c386d !default;
+//$primary:  #0c386d !default;
+//$green:  #036d50 !default;
+//$success:  #036d50 !default;
+//$red:   #e70453 !default;
+//$danger:   #e70453 !default;
+
+$primary:     #202020!default;
+$secondary:     #efefef !default;
+
+$light:         #fff !default;
+$dark:          #000 !default;
+
+$theme-colors: ( "light": $light, "dark": $dark,);
+
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1170px
+// ) !default;
+
+$enable-caret:                false !default;
+//$enable-rounded:              false !default;
+$input-focus-box-shadow:      none !default;
+$enable-validation-icons:     false !default;
+$enable-deprecation-messages: false !default;
+$border-radius:               .25rem !default;
+//$input-border-radius: false !default;
+//$btn-border-width: .125rem !default;
+$input-height: 40px !default;
+$input-font-size: 0.875rem !default;
+$input-color: $body-color !default;
+// $btn-padding-y: .5rem !default;
+// $btn-padding-x: 2.5rem !default;
+$input-focus-border-color: $dark !default;
+
+
+//$grid-columns:                9 !default;
+$grid-gutter-width:           20px !default;
+
+//$form-group-margin-bottom : 1.875rem !default;
+
+// $link-hover-color:                        $red !default;
+// $link-hover-decoration:                   none !default;font-family: 'Roboto Condensed', sans-serif;
+
+$font-family-sans-serif:'Roboto', sans-serif !default;
+
+//$headings-font-family: 'Changa One', cursive !default;
+$headings-font-weight: 400 !default;
+$headings-color: #141414 !default;
+
+$link-color:                        #9ea3ab !default;
+$link-hover-color:                        $dark !default;
+$link-hover-decoration:                   none !default;
+
+body { min-width: 360px;}
+
+// @media (min-width: 1200px) {
+//     body .container {
+//         max-width: 1520px;
+//     }
+// }
